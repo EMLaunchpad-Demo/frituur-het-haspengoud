@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact &amp; route — Frituur Het Haspengoud, Heks (Heers)</title>
+  <meta name="description" content="Contacteer Frituur Het Haspengoud in Heks (Heers): adres, route, openingsuren en telefoonnummer. Bel je bestelling door of stuur ons een bericht." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Contact &amp; route — Frituur Het Haspengoud, Heks (Heers)" />
+  <meta property="og:description" content="Adres, openingsuren, telefoon en contactformulier van Frituur Het Haspengoud in Haspengouw." />
+  <meta property="og:locale" content="nl_BE" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand" aria-label="Frituur Het Haspengoud — home">
+        <span class="brand__mark">🍟</span>
+        <span>Het Haspengoud<small>Frituur · Heks (Heers)</small></span>
+      </a>
+      <nav class="nav-links" aria-label="Hoofdmenu">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="over-ons.html">Over ons</a>
+        <a href="contact.html">Contact &amp; route</a>
+      </nav>
+      <div class="nav-cta">
+        <a href="tel:+3211000000" class="btn btn--primary nav-call">📞 Bel &amp; bestel</a>
+        <button class="nav-toggle" aria-label="Menu openen" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ PAGE HERO ============ -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Contact &amp; route</span>
+        <h1>Kom langs of bel je bestelling door</h1>
+        <p class="lead">Je vindt ons in het hart van Heks. Bel vooraf en je frietjes staan warm klaar bij afhaling.</p>
+        <p class="crumbs"><a href="index.html">Home</a> › Contact &amp; route</p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT INFO + FORM ============ -->
+    <section class="section">
+      <div class="container contact-grid">
+
+        <!-- Linkerkolom: info + uren -->
+        <div class="reveal">
+          <div class="info-stack">
+            <div class="info-card">
+              <span class="ic">📍</span>
+              <div>
+                <h3>Adres</h3>
+                <!-- VERVANG met je échte straat en huisnummer -->
+                <p>Dorpsstraat 00<br />3870 Heks (Heers)<br />Provincie Limburg, België</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <span class="ic">📞</span>
+              <div>
+                <h3>Telefoon</h3>
+                <!-- VERVANG met je échte nummer -->
+                <p><a href="tel:+3211000000">011 00 00 00</a><br />Bel om vooraf te bestellen</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <span class="ic">✉️</span>
+              <div>
+                <h3>E-mail</h3>
+                <p><a href="mailto:info@hethaspengoud.be">info@hethaspengoud.be</a></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Openingsuren -->
+          <h3 style="margin:2.2rem 0 1rem">🕒 Openingsuren</h3>
+          <!-- PAS DE OPENINGSUREN AAN naar je échte uren -->
+          <div class="hours">
+            <div class="hours__row closed"><span class="hours__day">Maandag</span><span class="hours__time">Gesloten</span></div>
+            <div class="hours__row"><span class="hours__day">Dinsdag</span><span class="hours__time">11:30 – 14:00 · 17:00 – 22:00</span></div>
+            <div class="hours__row"><span class="hours__day">Woensdag</span><span class="hours__time">11:30 – 14:00 · 17:00 – 22:00</span></div>
+            <div class="hours__row"><span class="hours__day">Donderdag</span><span class="hours__time">11:30 – 14:00 · 17:00 – 22:00</span></div>
+            <div class="hours__row"><span class="hours__day">Vrijdag</span><span class="hours__time">11:30 – 14:00 · 17:00 – 22:30</span></div>
+            <div class="hours__row"><span class="hours__day">Zaterdag</span><span class="hours__time">17:00 – 22:30</span></div>
+            <div class="hours__row"><span class="hours__day">Zondag</span><span class="hours__time">17:00 – 22:00</span></div>
+          </div>
+        </div>
+
+        <!-- Rechterkolom: formulier -->
+        <div class="reveal d1">
+          <form class="form" id="contact-form" novalidate>
+            <div class="form-success">✅ Bedankt voor je bericht! We nemen zo snel mogelijk contact met je op.</div>
+            <h3 style="margin-bottom:1.2rem">Stuur ons een bericht</h3>
+
+            <div class="field">
+              <label for="naam">Naam *</label>
+              <input type="text" id="naam" name="naam" placeholder="Je naam" required />
+              <span class="err-msg">Vul je naam in.</span>
+            </div>
+            <div class="field">
+              <label for="email">E-mail *</label>
+              <input type="email" id="email" name="email" placeholder="jij@voorbeeld.be" required />
+              <span class="err-msg">Vul een geldig e-mailadres in.</span>
+            </div>
+            <div class="field">
+              <label for="tel">Telefoon</label>
+              <input type="tel" id="tel" name="tel" placeholder="0470 00 00 00" />
+            </div>
+            <div class="field">
+              <label for="onderwerp">Onderwerp</label>
+              <select id="onderwerp" name="onderwerp">
+                <option value="algemeen">Algemene vraag</option>
+                <option value="groepsbestelling">Grote / groepsbestelling</option>
+                <option value="feedback">Feedback</option>
+                <option value="anders">Iets anders</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="bericht">Bericht *</label>
+              <textarea id="bericht" name="bericht" placeholder="Waarmee kunnen we je helpen?" required></textarea>
+              <span class="err-msg">Schrijf even een berichtje.</span>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--lg" style="width:100%">Verstuur bericht</button>
+            <p class="form-note">Voor snelle bestellingen bel je best rechtstreeks naar <a href="tel:+3211000000">011 00 00 00</a>.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ KAART ============ -->
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section-head text-center reveal">
+          <span class="eyebrow">Zo vind je ons</span>
+          <h2>Frituur Het Haspengoud in Heks</h2>
+          <p class="lead">Vlot bereikbaar met ruime parkeergelegenheid in de buurt.</p>
+        </div>
+        <div class="map-embed reveal">
+          <!--
+            VERVANG onderstaande iframe door je échte Google Maps embed:
+            Google Maps → zoek je frituur → Delen → Kaart insluiten → kopieer de <iframe>.
+            Onderstaande toont voorlopig de omgeving van Heks (Heers).
+          -->
+          <iframe
+            title="Locatie Frituur Het Haspengoud, Heks (Heers)"
+            src="https://www.google.com/maps?q=Heks,%20Heers,%20Belgi%C3%AB&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head text-center reveal">
+          <span class="eyebrow">Veelgestelde vragen</span>
+          <h2>Goed om te weten</h2>
+        </div>
+        <div class="faq">
+          <div class="faq-item reveal">
+            <button class="faq-q" aria-expanded="false">Kan ik vooraf telefonisch bestellen?<span class="plus">+</span></button>
+            <div class="faq-a"><p>Zeker! Bel ons op <a href="tel:+3211000000">011 00 00 00</a> en geef je bestelling door. We zeggen je meteen wanneer alles vers en warm klaarstaat voor afhaling.</p></div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" aria-expanded="false">Nemen jullie grote of groepsbestellingen aan?<span class="plus">+</span></button>
+            <div class="faq-a"><p>Jazeker. Voor feestjes, verenigingen of grote groepen bel je best even op voorhand of gebruik je het contactformulier, zodat we alles vlot kunnen voorbereiden.</p></div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" aria-expanded="false">Welke betaalmiddelen aanvaarden jullie?<span class="plus">+</span></button>
+            <div class="faq-a"><p>Je kan bij ons betalen met cash en met Payconiq / Bancontact. Handig en snel.</p></div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" aria-expanded="false">Bakken jullie in vet of in olie?<span class="plus">+</span></button>
+            <div class="faq-a"><p>Onze frieten bakken we in échte ossewit voor die authentieke Belgische smaak. Heb je een vraag over allergenen of ingrediënten? Vraag het gerust aan de toog.</p></div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" aria-expanded="false">Is er parkeergelegenheid?<span class="plus">+</span></button>
+            <div class="faq-a"><p>Ja, er is vlotte parkeergelegenheid in de buurt van de frituur, zodat je snel kan afhalen.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SLOT CTA ============ -->
+    <section class="section section--soft">
+      <div class="container">
+        <div class="cta-block reveal">
+          <h2>Trek gekregen?</h2>
+          <p>Bel je bestelling door of kom gezellig langs in Heks. Tot straks bij Het Haspengoud!</p>
+          <div class="btn-row">
+            <a href="tel:+3211000000" class="btn btn--yellow btn--lg">📞 011 00 00 00</a>
+            <a href="menu.html" class="btn btn--light btn--lg">Bekijk het menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand"><span class="brand__mark">🍟</span><span>Het Haspengoud<small>Frituur · Heks (Heers)</small></span></a>
+          <p>Dagvers gebakken frieten, huisgemaakte snacks en echte Belgische sauzen in het hart van Haspengouw.</p>
+          <div class="socials">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">◎</a>
+          </div>
+        </div>
+        <div>
+          <h4>Menu</h4>
+          <nav class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menukaart</a>
+            <a href="over-ons.html">Over ons</a>
+            <a href="contact.html">Contact &amp; route</a>
+          </nav>
+        </div>
+        <div>
+          <h4>Openingsuren</h4>
+          <ul class="footer-contact">
+            <li>Ma: gesloten</li>
+            <li>Di–Do: 11:30–14:00 · 17:00–22:00</li>
+            <li>Vr: tot 22:30</li>
+            <li>Za–Zo: 17:00–22:00</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-contact">
+            <li>📍 Dorpsstraat 00, 3870 Heks (Heers)</li>
+            <li>📞 <a href="tel:+3211000000">011 00 00 00</a></li>
+            <li>✉️ <a href="mailto:info@hethaspengoud.be">info@hethaspengoud.be</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2025</span> Frituur Het Haspengoud · Heks (Heers). Alle rechten voorbehouden.</span>
+        <span>Met liefde gebakken in Haspengouw 🍟</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

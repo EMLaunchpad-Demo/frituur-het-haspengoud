@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menukaart — Frituur Het Haspengoud in Heks (Heers)</title>
+  <meta name="description" content="Ontdek de menukaart van Frituur Het Haspengoud: verse frieten, huisgemaakte snacks, ruime sauzenkaart, schotels, kindermenu's en dranken. Alle prijzen op een rij." />
+  <meta property="og:type" content="restaurant.menu" />
+  <meta property="og:title" content="Menukaart — Frituur Het Haspengoud, Heks (Heers)" />
+  <meta property="og:description" content="Verse frieten, snacks, sauzen, schotels en kindermenu's in Haspengouw." />
+  <meta property="og:locale" content="nl_BE" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand" aria-label="Frituur Het Haspengoud — home">
+        <span class="brand__mark">🍟</span>
+        <span>Het Haspengoud<small>Frituur · Heks (Heers)</small></span>
+      </a>
+      <nav class="nav-links" aria-label="Hoofdmenu">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="over-ons.html">Over ons</a>
+        <a href="contact.html">Contact &amp; route</a>
+      </nav>
+      <div class="nav-cta">
+        <a href="tel:+3211000000" class="btn btn--primary nav-call">📞 Bel &amp; bestel</a>
+        <button class="nav-toggle" aria-label="Menu openen" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ PAGE HERO ============ -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Onze menukaart</span>
+        <h1>Alles vers gebakken, à la minute</h1>
+        <p class="lead">Van een simpel frietje tot een volledige schotel — kies je categorie en ontdek onze prijzen.</p>
+        <p class="crumbs"><a href="index.html">Home</a> › Menu</p>
+      </div>
+    </section>
+
+    <!-- ============ MENU ============ -->
+    <section class="section">
+      <div class="container">
+
+        <!-- Tabs -->
+        <div class="menu-tabs" role="tablist" aria-label="Menucategorieën">
+          <button class="menu-tab active" data-tab="frieten" role="tab">🍟 Frieten</button>
+          <button class="menu-tab" data-tab="snacks" role="tab">🌭 Snacks</button>
+          <button class="menu-tab" data-tab="schotels" role="tab">🍽️ Schotels</button>
+          <button class="menu-tab" data-tab="sauzen" role="tab">🥫 Sauzen</button>
+          <button class="menu-tab" data-tab="kinderen" role="tab">🧒 Kindermenu</button>
+          <button class="menu-tab" data-tab="dranken" role="tab">🥤 Dranken</button>
+        </div>
+
+        <!-- FRIETEN -->
+        <div class="menu-panel active" data-panel="frieten">
+          <div class="menu-list">
+            <div class="menu-item"><span class="menu-item__name">Kleine friet</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 3,00</span></div>
+            <div class="menu-item"><span class="menu-item__name">Medium friet</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 3,50</span></div>
+            <div class="menu-item"><span class="menu-item__name">Grote friet</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 4,00</span></div>
+            <div class="menu-item"><span class="menu-item__name">Familiezak friet</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 7,50</span></div>
+            <div class="menu-item"><span class="menu-item__name">Frietje speciaal <span class="tag">Populair</span></span><span class="menu-item__dots"></span><span class="menu-item__price">€ 5,00</span></div>
+            <div class="menu-item"><span class="menu-item__name">Frietje stoofvlees <span class="tag tag--hot">Huisgemaakt</span></span><span class="menu-item__dots"></span><span class="menu-item__price">€ 8,50</span></div>
+            <div class="menu-item"><span class="menu-item__name">Frietje curryworst speciaal</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 8,00</span></div>
+            <div class="menu-item"><span class="menu-item__name">Frietje goulash</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 8,50</span></div>
+            <div class="menu-item"><span class="menu-item__name">Extra saus</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 0,80</span></div>
+            <div class="menu-item"><span class="menu-item__name">Portie mayonaise</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 0,80</span></div>
+          </div>
+          <p class="menu-note">🥔 Al onze frieten worden vers gesneden en twee keer gebakken in ossewit.</p>
+        </div>
+
+        <!-- SNACKS -->
+        <div class="menu-panel" data-panel="snacks">
+          <div class="menu-list">
+            <div class="menu-item"><span class="menu-item__name">Frikandel</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 2,20</span></div>
+            <div class="menu-item"><span class="menu-item__name">Frikandel speciaal <span class="tag">Populair</span></span><span class="menu-item__dots"></span><span class="menu-item__price">€ 3,00</span></div>
+            <div class="menu-item"><span class="menu-item__name">Bicky Burger</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 3,80</span></div>
+            <div class="menu-item"><span class="menu-item__name">Cervela</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 2,50</span></div>
+            <div class="menu-item"><span class="menu-item__name">Curryworst</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 2,50</span></div>
+            <div class="menu-item"><span class="menu-item__name">Boulet (gehaktbal)</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 2,50</span></div>
+            <div class="menu-item"><span class="menu-item__name">Kipcorn</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 2,80</span></div>
+            <div class="menu-item"><span class="menu-item__name">Mexicano</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 2,80</span></div>
+            <div class="menu-item"><span class="menu-item__name">Viandel</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 2,50</span></div>
+            <div class="menu-item"><span class="menu-item__name">Loempia</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 2,80</span></div>
+            <div class="menu-item"><span class="menu-item__name">Kaaskroket</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 2,50</span></div>
+            <div class="menu-item"><span class="menu-item__name">Garnaalkroket</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 3,20</span></div>
+            <div class="menu-item"><span class="menu-item__name">Bitterballen (6 st.)</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 4,50</span></div>
+            <div class="menu-item"><span class="menu-item__name">Sitostick</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 2,80</span></div>
+            <div class="menu-item"><span class="menu-item__name">Berehap</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 3,20</span></div>
+            <div class="menu-item"><span class="menu-item__name">Kipfilet</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 3,50</span></div>
+          </div>
+          <p class="menu-note">🌭 Vraag gerust naar het volledige snack-aanbod aan de toog.</p>
+        </div>
+
+        <!-- SCHOTELS -->
+        <div class="menu-panel" data-panel="schotels">
+          <div class="menu-list">
+            <div class="menu-item"><span class="menu-item__name">Frietje stoofvlees + salade <span class="tag tag--hot">Specialiteit</span></span><span class="menu-item__dots"></span><span class="menu-item__price">€ 12,50</span></div>
+            <div class="menu-item"><span class="menu-item__name">Brochette met friet &amp; salade</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 13,00</span></div>
+            <div class="menu-item"><span class="menu-item__name">Kipfilet met friet &amp; salade</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 12,00</span></div>
+            <div class="menu-item"><span class="menu-item__name">Vol-au-vent met friet</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 13,50</span></div>
+            <div class="menu-item"><span class="menu-item__name">Goulash met friet &amp; salade</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 13,00</span></div>
+            <div class="menu-item"><span class="menu-item__name">Scampi's met friet</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 14,50</span></div>
+          </div>
+          <p class="menu-note">🍽️ Alle schotels worden geserveerd met verse frieten en een frisse salade.</p>
+        </div>
+
+        <!-- SAUZEN -->
+        <div class="menu-panel" data-panel="sauzen">
+          <div class="menu-list">
+            <div class="menu-item"><span class="menu-item__name">Mayonaise</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 0,80</span></div>
+            <div class="menu-item"><span class="menu-item__name">Ketchup</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 0,80</span></div>
+            <div class="menu-item"><span class="menu-item__name">Curry ketchup</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 0,80</span></div>
+            <div class="menu-item"><span class="menu-item__name">Andalouse <span class="tag">Populair</span></span><span class="menu-item__dots"></span><span class="menu-item__price">€ 0,90</span></div>
+            <div class="menu-item"><span class="menu-item__name">Samurai (pikant)</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 0,90</span></div>
+            <div class="menu-item"><span class="menu-item__name">Joppiesaus</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 0,90</span></div>
+            <div class="menu-item"><span class="menu-item__name">Tartaar</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 0,90</span></div>
+            <div class="menu-item"><span class="menu-item__name">Looksaus</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 0,90</span></div>
+            <div class="menu-item"><span class="menu-item__name">Cocktail</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 0,90</span></div>
+            <div class="menu-item"><span class="menu-item__name">Pickles</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 0,90</span></div>
+            <div class="menu-item"><span class="menu-item__name">Mammoet</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 0,90</span></div>
+            <div class="menu-item"><span class="menu-item__name">Brazil</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 0,90</span></div>
+          </div>
+          <p class="menu-note">🥫 Meer dan 20 verse sauzen — vraag naar het volledige aanbod.</p>
+        </div>
+
+        <!-- KINDERMENU -->
+        <div class="menu-panel" data-panel="kinderen">
+          <div class="menu-list">
+            <div class="menu-item"><span class="menu-item__name">Kindermenu frikandel + friet + drankje</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 6,50</span></div>
+            <div class="menu-item"><span class="menu-item__name">Kindermenu kipnuggets + friet + drankje</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 7,00</span></div>
+            <div class="menu-item"><span class="menu-item__name">Kindermenu curryworst + friet + drankje</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 6,50</span></div>
+            <div class="menu-item"><span class="menu-item__name">Kleine friet + snack naar keuze</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 5,00</span></div>
+          </div>
+          <p class="menu-note">🧒 Elk kindermenu bevat een klein frietje, een snack én een drankje naar keuze.</p>
+        </div>
+
+        <!-- DRANKEN -->
+        <div class="menu-panel" data-panel="dranken">
+          <div class="menu-list">
+            <div class="menu-item"><span class="menu-item__name">Frisdrank (blik 33 cl)</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 2,00</span></div>
+            <div class="menu-item"><span class="menu-item__name">Water (plat / bruis)</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 1,80</span></div>
+            <div class="menu-item"><span class="menu-item__name">Fruitsap</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 2,20</span></div>
+            <div class="menu-item"><span class="menu-item__name">Ice tea</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 2,20</span></div>
+            <div class="menu-item"><span class="menu-item__name">Pils (blik)</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 2,50</span></div>
+            <div class="menu-item"><span class="menu-item__name">Water 50 cl</span><span class="menu-item__dots"></span><span class="menu-item__price">€ 2,20</span></div>
+          </div>
+          <p class="menu-note">🥤 Ook grote flessen frisdrank verkrijgbaar om mee te nemen.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Prijzen-disclaimer -->
+    <section class="section section--soft">
+      <div class="container text-center">
+        <p class="lead" style="max-width:640px;margin-inline:auto">💡 Alle prijzen zijn richtprijzen en kunnen wijzigen. Actuele prijzen vind je altijd aan de toog. Allergieën? Vraag het gerust — wij helpen je graag verder.</p>
+        <div class="btn-row center" style="margin-top:2rem">
+          <a href="tel:+3211000000" class="btn btn--primary btn--lg">📞 Bel &amp; bestel</a>
+          <a href="contact.html" class="btn btn--ghost btn--lg">Route &amp; openingsuren</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand"><span class="brand__mark">🍟</span><span>Het Haspengoud<small>Frituur · Heks (Heers)</small></span></a>
+          <p>Dagvers gebakken frieten, huisgemaakte snacks en echte Belgische sauzen in het hart van Haspengouw.</p>
+          <div class="socials">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">◎</a>
+          </div>
+        </div>
+        <div>
+          <h4>Menu</h4>
+          <nav class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menukaart</a>
+            <a href="over-ons.html">Over ons</a>
+            <a href="contact.html">Contact &amp; route</a>
+          </nav>
+        </div>
+        <div>
+          <h4>Openingsuren</h4>
+          <ul class="footer-contact">
+            <li>Ma: gesloten</li>
+            <li>Di–Do: 11:30–14:00 · 17:00–22:00</li>
+            <li>Vr: tot 22:30</li>
+            <li>Za–Zo: 17:00–22:00</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-contact">
+            <li>📍 Dorpsstraat 00, 3870 Heks (Heers)</li>
+            <li>📞 <a href="tel:+3211000000">011 00 00 00</a></li>
+            <li>✉️ <a href="mailto:info@hethaspengoud.be">info@hethaspengoud.be</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2025</span> Frituur Het Haspengoud · Heks (Heers). Alle rechten voorbehouden.</span>
+        <span>Met liefde gebakken in Haspengouw 🍟</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
