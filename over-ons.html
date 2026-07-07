@@ -17,11 +17,27 @@
 </head>
 <body>
 
+  <!-- ============ SVG ICON SPRITE (verborgen) ============ -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="i-fries" viewBox="0 0 24 24"><path d="M6 9h12l-1 10a2 2 0 0 1-2 1.8H9a2 2 0 0 1-2-1.8L6 9z"/><path d="M9 9V4M12 9V3M15 9V4"/><path d="M6 12h12"/></symbol>
+    <symbol id="i-sprout" viewBox="0 0 24 24"><path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/></symbol>
+    <symbol id="i-chef" viewBox="0 0 24 24"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"/><line x1="6" y1="17" x2="18" y2="17"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 1 0-7.8 7.8l1.1 1.1L12 21.2l7.8-7.8 1.1-1.1a5.5 5.5 0 0 0 0-7.8z"/></symbol>
+    <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="m12 3 1.9 5.8a2 2 0 0 0 1.3 1.3L21 12l-5.8 1.9a2 2 0 0 0-1.3 1.3L12 21l-1.9-5.8a2 2 0 0 0-1.3-1.3L3 12l5.8-1.9a2 2 0 0 0 1.3-1.3z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></symbol>
+  </svg>
+
   <!-- ============ HEADER ============ -->
   <header class="site-header">
     <div class="container nav">
       <a href="index.html" class="brand" aria-label="Frituur Het Haspengoud — home">
-        <span class="brand__mark">🍟</span>
+        <span class="brand__mark"><svg class="ico"><use href="#i-fries"/></svg></span>
         <span>Het Haspengoud<small>Frituur · Heks (Heers)</small></span>
       </a>
       <nav class="nav-links" aria-label="Hoofdmenu">
@@ -31,7 +47,7 @@
         <a href="contact.html">Contact &amp; route</a>
       </nav>
       <div class="nav-cta">
-        <a href="tel:+3211000000" class="btn btn--primary nav-call">📞 Bel &amp; bestel</a>
+        <a href="tel:+3211000000" class="btn btn--primary nav-call"><svg class="ico"><use href="#i-phone"/></svg> Bel &amp; bestel</a>
         <button class="nav-toggle" aria-label="Menu openen" aria-expanded="false"><span></span><span></span><span></span></button>
       </div>
     </div>
@@ -52,8 +68,7 @@
     <section class="section">
       <div class="container split">
         <div class="reveal">
-          <!-- FOTO: uitbaters / familie achter de toonbank -->
-          <img src="https://placehold.co/720x540/E63329/ffffff?text=Ons+verhaal" alt="De uitbaters van Frituur Het Haspengoud achter de toonbank" />
+          <img src="images/verhaal.jpg" alt="Sfeerbeeld van de frituur met verse frieten en snacks" />
         </div>
         <div class="reveal d1">
           <span class="eyebrow">Ons verhaal</span>
@@ -73,27 +88,27 @@
         </div>
         <div class="values">
           <div class="value card reveal">
-            <h3><span class="ic">🥔</span> Altijd vers</h3>
+            <h3><span class="ic"><svg class="ico"><use href="#i-sprout"/></svg></span> Altijd vers</h3>
             <p>Verse aardappelen, dagelijks gesneden en gebakken op het moment zelf. Zo hoort het.</p>
           </div>
           <div class="value card reveal d1">
-            <h3><span class="ic">🧑‍🍳</span> Ambachtelijk</h3>
+            <h3><span class="ic"><svg class="ico"><use href="#i-chef"/></svg></span> Ambachtelijk</h3>
             <p>Ons stoofvlees, onze curry en kroketten maken we volgens eigen recept. Huisgemaakt maakt het verschil.</p>
           </div>
           <div class="value card reveal d2">
-            <h3><span class="ic">❤️</span> Persoonlijk</h3>
+            <h3><span class="ic"><svg class="ico"><use href="#i-heart"/></svg></span> Persoonlijk</h3>
             <p>We kennen onze klanten bij naam en bakken je bestelling zoals jij ze graag hebt. Service met een glimlach.</p>
           </div>
           <div class="value card reveal">
-            <h3><span class="ic">🌾</span> Streekgebonden</h3>
+            <h3><span class="ic"><svg class="ico"><use href="#i-pin"/></svg></span> Streekgebonden</h3>
             <p>Trots op Haspengouw. Waar mogelijk werken we met lokale leveranciers uit de buurt.</p>
           </div>
           <div class="value card reveal d1">
-            <h3><span class="ic">✨</span> Proper &amp; verzorgd</h3>
+            <h3><span class="ic"><svg class="ico"><use href="#i-sparkles"/></svg></span> Proper &amp; verzorgd</h3>
             <p>Een nette keuken en een verzorgde toog — hygiëne staat bij ons voorop.</p>
           </div>
           <div class="value card reveal d2">
-            <h3><span class="ic">⚡</span> Vlot &amp; vriendelijk</h3>
+            <h3><span class="ic"><svg class="ico"><use href="#i-bolt"/></svg></span> Vlot &amp; vriendelijk</h3>
             <p>Bel vooraf en je bestelling staat warm klaar. Geen lange wachtrijen, wel veel smaak.</p>
           </div>
         </div>
@@ -108,10 +123,10 @@
           <h2>Zo maken wij jouw frietje</h2>
         </div>
         <div class="grid grid--4">
-          <div class="card reveal"><div class="card__icon">①</div><h3>Verse aardappelen</h3><p>We selecteren kwaliteitsaardappelen uit de streek en snijden ze dagelijks vers.</p></div>
-          <div class="card reveal d1"><div class="card__icon">②</div><h3>Eerste bak</h3><p>De frietjes worden voorgebakken zodat het hart mooi zacht gaart.</p></div>
-          <div class="card reveal d2"><div class="card__icon">③</div><h3>Tweede bak</h3><p>Op bestelling knapperig afgebakken in ossewit voor dat gouden korstje.</p></div>
-          <div class="card reveal d3"><div class="card__icon">④</div><h3>Klaar!</h3><p>Vers in de puntzak, met de saus naar keuze. Smakelijk!</p></div>
+          <div class="card reveal"><div class="card__icon">1</div><h3>Verse aardappelen</h3><p>We selecteren kwaliteitsaardappelen uit de streek en snijden ze dagelijks vers.</p></div>
+          <div class="card reveal d1"><div class="card__icon">2</div><h3>Eerste bak</h3><p>De frietjes worden voorgebakken zodat het hart mooi zacht gaart.</p></div>
+          <div class="card reveal d2"><div class="card__icon">3</div><h3>Tweede bak</h3><p>Op bestelling knapperig afgebakken in ossewit voor dat gouden korstje.</p></div>
+          <div class="card reveal d3"><div class="card__icon">4</div><h3>Klaar!</h3><p>Vers in de puntzak, met de saus naar keuze. Smakelijk!</p></div>
         </div>
       </div>
     </section>
@@ -136,7 +151,7 @@
           <h2>Zin gekregen in verse friet?</h2>
           <p>Bel je bestelling door of spring binnen in onze frituur in Heks. Wij staan voor je klaar.</p>
           <div class="btn-row">
-            <a href="tel:+3211000000" class="btn btn--yellow btn--lg">📞 Bel &amp; bestel</a>
+            <a href="tel:+3211000000" class="btn btn--yellow btn--lg"><svg class="ico"><use href="#i-phone"/></svg> Bel &amp; bestel</a>
             <a href="contact.html" class="btn btn--light btn--lg">Route &amp; openingsuren</a>
           </div>
         </div>
@@ -149,11 +164,11 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="index.html" class="brand"><span class="brand__mark">🍟</span><span>Het Haspengoud<small>Frituur · Heks (Heers)</small></span></a>
+          <a href="index.html" class="brand"><span class="brand__mark"><svg class="ico"><use href="#i-fries"/></svg></span><span>Het Haspengoud<small>Frituur · Heks (Heers)</small></span></a>
           <p>Dagvers gebakken frieten, huisgemaakte snacks en echte Belgische sauzen in het hart van Haspengouw.</p>
           <div class="socials">
-            <a href="#" aria-label="Facebook">f</a>
-            <a href="#" aria-label="Instagram">◎</a>
+            <a href="#" aria-label="Facebook"><svg class="ico ico--fill"><use href="#i-facebook"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg class="ico"><use href="#i-instagram"/></svg></a>
           </div>
         </div>
         <div>
@@ -177,15 +192,15 @@
         <div>
           <h4>Contact</h4>
           <ul class="footer-contact">
-            <li>📍 Dorpsstraat 00, 3870 Heks (Heers)</li>
-            <li>📞 <a href="tel:+3211000000">011 00 00 00</a></li>
-            <li>✉️ <a href="mailto:info@hethaspengoud.be">info@hethaspengoud.be</a></li>
+            <li><svg class="ico"><use href="#i-pin"/></svg> Dorpsstraat 00, 3870 Heks (Heers)</li>
+            <li><svg class="ico"><use href="#i-phone"/></svg> <a href="tel:+3211000000">011 00 00 00</a></li>
+            <li><svg class="ico"><use href="#i-mail"/></svg> <a href="mailto:info@hethaspengoud.be">info@hethaspengoud.be</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
         <span>© <span data-year>2025</span> Frituur Het Haspengoud · Heks (Heers). Alle rechten voorbehouden.</span>
-        <span>Met liefde gebakken in Haspengouw 🍟</span>
+        <span>Met liefde gebakken in Haspengouw</span>
       </div>
     </div>
   </footer>

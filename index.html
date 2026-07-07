@@ -12,7 +12,7 @@
   <meta property="og:title" content="Frituur Het Haspengoud — Verse Belgische friet in Heks (Heers)" />
   <meta property="og:description" content="Dagvers gebakken frieten, huisgemaakte snacks en echte Belgische sauzen in het hart van Haspengouw." />
   <meta property="og:locale" content="nl_BE" />
-  <!-- <meta property="og:image" content="VERVANG-MET-URL-NAAR-FOTO.jpg" /> -->
+  <meta property="og:image" content="images/hero-friet.jpg" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,11 +21,29 @@
 </head>
 <body>
 
+  <!-- ============ SVG ICON SPRITE (verborgen) ============ -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="i-fries" viewBox="0 0 24 24"><path d="M6 9h12l-1 10a2 2 0 0 1-2 1.8H9a2 2 0 0 1-2-1.8L6 9z"/><path d="M9 9V4M12 9V3M15 9V4"/><path d="M6 12h12"/></symbol>
+    <symbol id="i-sprout" viewBox="0 0 24 24"><path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/></symbol>
+    <symbol id="i-chef" viewBox="0 0 24 24"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"/><line x1="6" y1="17" x2="18" y2="17"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 16 14"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+    <symbol id="i-card" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></symbol>
+    <symbol id="i-flame" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.07-2.14-.22-4.05 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.15.43-2.29 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 1 0-7.8 7.8l1.1 1.1L12 21.2l7.8-7.8 1.1-1.1a5.5 5.5 0 0 0 0-7.8z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></symbol>
+  </svg>
+
   <!-- ============ HEADER ============ -->
   <header class="site-header">
     <div class="container nav">
       <a href="index.html" class="brand" aria-label="Frituur Het Haspengoud — home">
-        <span class="brand__mark">🍟</span>
+        <span class="brand__mark"><svg class="ico"><use href="#i-fries"/></svg></span>
         <span>Het Haspengoud<small>Frituur · Heks (Heers)</small></span>
       </a>
 
@@ -38,7 +56,7 @@
 
       <div class="nav-cta">
         <!-- VERVANG telefoonnummer overal door je échte nummer -->
-        <a href="tel:+3211000000" class="btn btn--primary nav-call">📞 Bel &amp; bestel</a>
+        <a href="tel:+3211000000" class="btn btn--primary nav-call"><svg class="ico"><use href="#i-phone"/></svg> Bel &amp; bestel</a>
         <button class="nav-toggle" aria-label="Menu openen" aria-expanded="false" aria-controls="hoofdmenu">
           <span></span><span></span><span></span>
         </button>
@@ -55,19 +73,19 @@
           <h1>Echte Belgische <span>friet</span>, vers uit Haspengouw</h1>
           <p class="lead">Bij Frituur Het Haspengoud in Heks bakken we elke dag verse frieten in échte ossewit, met huisgemaakte snacks en een boordevolle sauzenkaart. Proef het verschil.</p>
           <div class="btn-row">
-            <a href="tel:+3211000000" class="btn btn--primary btn--lg">📞 Bel &amp; bestel</a>
+            <a href="tel:+3211000000" class="btn btn--primary btn--lg"><svg class="ico"><use href="#i-phone"/></svg> Bel &amp; bestel</a>
             <a href="menu.html" class="btn btn--ghost btn--lg">Bekijk het menu</a>
           </div>
           <div class="hero__meta">
-            <div><span class="ic">📍</span> Heks · Gemeente Heers</div>
-            <div><span class="ic">🕒</span> Ook 's middags open</div>
-            <div><span class="ic">💳</span> Cash &amp; Payconiq</div>
+            <div><span class="ic"><svg class="ico"><use href="#i-pin"/></svg></span> Heks · Gemeente Heers</div>
+            <div><span class="ic"><svg class="ico"><use href="#i-clock"/></svg></span> Ook 's middags open</div>
+            <div><span class="ic"><svg class="ico"><use href="#i-card"/></svg></span> Cash &amp; Payconiq</div>
           </div>
         </div>
 
         <div class="hero__media reveal d1">
-          <!-- FOTO: vervang door een sfeerfoto van je frituur of een puntzak verse friet -->
-          <img src="https://placehold.co/720x900/E63329/ffffff?text=Verse+friet+%F0%9F%8D%9F" alt="Puntzak verse Belgische frieten van Frituur Het Haspengoud" />
+          <!-- FOTO: vervang gerust door een eigen sfeerfoto van je frituur -->
+          <img src="images/hero-friet.jpg" alt="Puntzak verse Belgische frieten van Frituur Het Haspengoud" />
           <div class="hero__float">
             <div>
               <div class="stars">★★★★★</div>
@@ -82,9 +100,9 @@
     <!-- ============ USP STRIP ============ -->
     <section class="strip">
       <div class="container">
-        <div class="strip__item"><span class="ic">🥔</span><div><strong>Dagvers gebakken</strong><small>Verse aardappelen, echte ossewit</small></div></div>
-        <div class="strip__item"><span class="ic">🧑‍🍳</span><div><strong>Huisgemaakte snacks</strong><small>Ambachtelijke stoofvlees &amp; kroketten</small></div></div>
-        <div class="strip__item"><span class="ic">⚡</span><div><strong>Snel afhalen</strong><small>Bel vooraf en het staat klaar</small></div></div>
+        <div class="strip__item"><span class="ic"><svg class="ico"><use href="#i-sprout"/></svg></span><div><strong>Dagvers gebakken</strong><small>Verse aardappelen, echte ossewit</small></div></div>
+        <div class="strip__item"><span class="ic"><svg class="ico"><use href="#i-chef"/></svg></span><div><strong>Huisgemaakte snacks</strong><small>Ambachtelijke stoofvlees &amp; kroketten</small></div></div>
+        <div class="strip__item"><span class="ic"><svg class="ico"><use href="#i-bolt"/></svg></span><div><strong>Snel afhalen</strong><small>Bel vooraf en het staat klaar</small></div></div>
       </div>
     </section>
 
@@ -99,26 +117,23 @@
 
         <div class="grid grid--3">
           <article class="spec-card reveal">
-            <!-- FOTO: puntzak friet -->
-            <img src="https://placehold.co/600x400/FFC81A/1A1A1A?text=Verse+friet" alt="Puntzak verse frieten met mayonaise" />
+            <img src="images/friet.jpg" alt="Puntzak verse frieten met mayonaise" />
             <div class="spec-card__body">
-              <h3>De klassieke friet 🍟</h3>
+              <h3>De klassieke friet</h3>
               <p>Twee keer gebakken in ossewit voor een krokant korstje en zacht hart. Zoals friet hoort te zijn.</p>
             </div>
           </article>
           <article class="spec-card reveal d1">
-            <!-- FOTO: frietje stoofvlees -->
-            <img src="https://placehold.co/600x400/8B4513/ffffff?text=Stoofvlees" alt="Frietje met huisgemaakt stoofvlees" />
+            <img src="images/stoofvlees.jpg" alt="Huisgemaakt Vlaams stoofvlees" />
             <div class="spec-card__body">
-              <h3>Huisgemaakt stoofvlees 🍲</h3>
+              <h3>Huisgemaakt stoofvlees</h3>
               <p>Uren gesudderd op ons eigen recept met bruin bier. Rijkelijk over je frietje of apart.</p>
             </div>
           </article>
           <article class="spec-card reveal d2">
-            <!-- FOTO: snacks / frikandel speciaal -->
-            <img src="https://placehold.co/600x400/E63329/ffffff?text=Snacks" alt="Assortiment gefrituurde snacks" />
+            <img src="images/snacks.jpg" alt="Verse gefrituurde snacks zoals frikandel" />
             <div class="spec-card__body">
-              <h3>Snacks &amp; specials 🌭</h3>
+              <h3>Snacks &amp; specials</h3>
               <p>Frikandel speciaal, bicky burger, kaaskroket, mexicano… de hele klassieke frituurkaart.</p>
             </div>
           </article>
@@ -134,18 +149,17 @@
     <section class="section section--cream">
       <div class="container split">
         <div class="reveal">
-          <!-- FOTO: interieur of team van de frituur -->
-          <img src="https://placehold.co/720x540/1A1A1A/FFC81A?text=Onze+frituur" alt="Het interieur van Frituur Het Haspengoud in Heks" />
+          <img src="images/frituur.jpg" alt="Sfeerbeeld van een gezellige frituur" />
         </div>
         <div class="reveal d1">
           <span class="eyebrow">Over Het Haspengoud</span>
           <h2>Een échte dorpsfrituur in het hart van Haspengouw</h2>
           <p>Frituur Het Haspengoud is meer dan een frituur — het is een vaste stop voor jong en oud in Heks en omstreken. We werken met verse streekaardappelen, bakken alles op het moment zelf en kennen onze klanten bij naam.</p>
           <ul class="split__list">
-            <li><span class="ck">✓</span> Verse aardappelen, elke dag opnieuw gesneden en gebakken</li>
-            <li><span class="ck">✓</span> Huisgemaakt stoofvlees, curry en kroketten</li>
-            <li><span class="ck">✓</span> Ruime parking en vlot afhalen</li>
-            <li><span class="ck">✓</span> Vriendelijke service met een glimlach</li>
+            <li><span class="ck"><svg class="ico"><use href="#i-check"/></svg></span> Verse aardappelen, elke dag opnieuw gesneden en gebakken</li>
+            <li><span class="ck"><svg class="ico"><use href="#i-check"/></svg></span> Huisgemaakt stoofvlees, curry en kroketten</li>
+            <li><span class="ck"><svg class="ico"><use href="#i-check"/></svg></span> Ruime parking en vlot afhalen</li>
+            <li><span class="ck"><svg class="ico"><use href="#i-check"/></svg></span> Vriendelijke service met een glimlach</li>
           </ul>
           <div class="btn-row" style="margin-top:1.6rem">
             <a href="over-ons.html" class="btn btn--ghost">Lees ons verhaal</a>
@@ -189,7 +203,7 @@
             <h2>Honger? Bel en bestel!</h2>
             <p>Wij zetten je frietjes en snacks vers klaar voor afhaling. Geen wachtrij, gewoon lekker.</p>
             <div class="btn-row">
-              <a href="tel:+3211000000" class="btn btn--yellow btn--lg">📞 011 00 00 00</a>
+              <a href="tel:+3211000000" class="btn btn--yellow btn--lg"><svg class="ico"><use href="#i-phone"/></svg> 011 00 00 00</a>
               <a href="contact.html" class="btn btn--light btn--lg">Route &amp; contact</a>
             </div>
           </div>
@@ -231,7 +245,7 @@
           <h2>Trek gekregen?</h2>
           <p>Kom langs in Heks of bel je bestelling door. Wij zorgen voor de lekkerste frieten van Haspengouw.</p>
           <div class="btn-row">
-            <a href="tel:+3211000000" class="btn btn--yellow btn--lg">📞 Bel &amp; bestel</a>
+            <a href="tel:+3211000000" class="btn btn--yellow btn--lg"><svg class="ico"><use href="#i-phone"/></svg> Bel &amp; bestel</a>
             <a href="menu.html" class="btn btn--light btn--lg">Bekijk het menu</a>
           </div>
         </div>
@@ -244,12 +258,12 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="index.html" class="brand"><span class="brand__mark">🍟</span><span>Het Haspengoud<small>Frituur · Heks (Heers)</small></span></a>
+          <a href="index.html" class="brand"><span class="brand__mark"><svg class="ico"><use href="#i-fries"/></svg></span><span>Het Haspengoud<small>Frituur · Heks (Heers)</small></span></a>
           <p>Dagvers gebakken frieten, huisgemaakte snacks en echte Belgische sauzen in het hart van Haspengouw.</p>
           <div class="socials">
             <!-- VERVANG # door je échte social media links -->
-            <a href="#" aria-label="Facebook">f</a>
-            <a href="#" aria-label="Instagram">◎</a>
+            <a href="#" aria-label="Facebook"><svg class="ico ico--fill"><use href="#i-facebook"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg class="ico"><use href="#i-instagram"/></svg></a>
           </div>
         </div>
         <div>
@@ -274,15 +288,15 @@
           <h4>Contact</h4>
           <ul class="footer-contact">
             <!-- VERVANG met je échte gegevens -->
-            <li>📍 Dorpsstraat 00, 3870 Heks (Heers)</li>
-            <li>📞 <a href="tel:+3211000000">011 00 00 00</a></li>
-            <li>✉️ <a href="mailto:info@hethaspengoud.be">info@hethaspengoud.be</a></li>
+            <li><svg class="ico"><use href="#i-pin"/></svg> Dorpsstraat 00, 3870 Heks (Heers)</li>
+            <li><svg class="ico"><use href="#i-phone"/></svg> <a href="tel:+3211000000">011 00 00 00</a></li>
+            <li><svg class="ico"><use href="#i-mail"/></svg> <a href="mailto:info@hethaspengoud.be">info@hethaspengoud.be</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
         <span>© <span data-year>2025</span> Frituur Het Haspengoud · Heks (Heers). Alle rechten voorbehouden.</span>
-        <span>Met liefde gebakken in Haspengouw 🍟</span>
+        <span>Met liefde gebakken in Haspengouw</span>
       </div>
     </div>
   </footer>

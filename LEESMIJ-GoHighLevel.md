@@ -48,7 +48,8 @@ Deze placeholders staan bewust duidelijk in de code:
 - **Adres:** `Dorpsstraat 00, 3870 Heks (Heers)` → jouw échte straat + huisnummer
 - **E-mail:** `info@hethaspengoud.be` → jouw échte e-mailadres
 - **Openingsuren:** blokken met `hours__row` → jouw échte uren
-- **Foto's:** alle `https://placehold.co/...` links → jouw eigen foto's (zoek op `placehold.co`)
+- **Foto's:** staan lokaal in de map `images/` (frieten, stoofvlees, snacks, frituur-sfeer). Vervang ze gerust door je eigen foto's — behoud dezelfde bestandsnamen, dan hoef je niets in de HTML aan te passen. In GoHighLevel upload je ze via de mediabibliotheek en pas je de `src="images/..."`-paden aan naar de GHL-URL's.
+- **Iconen:** dit zijn ingebouwde SVG-vectoriconen (bovenaan elke pagina in een verborgen `<svg>`-sprite). Niets aan te passen — ze schalen mee en nemen de kleuren van de site over.
 - **Social media:** `href="#"` bij Facebook/Instagram → jouw échte links
 - **Google Maps:** in `contact.html` het `<iframe>` vervangen door je échte embed
   (Google Maps → je frituur zoeken → Delen → Kaart insluiten → `<iframe>` kopiëren)
